@@ -1,0 +1,76 @@
+packages:
+1. numpy
+2. cv2
+3. skimage
+4. sklearn
+5. scipy
+6. tensorflow
+7. keras
+
+All Imports:
+import numpy as np
+import skimage.io
+import matplotlib.pyplot as plt
+import matplotlib.patches as patches
+import os
+import cv2 as cv2
+import matplotlib.mlab
+from collections import defaultdict
+from functools import reduce
+from skimage import measure,io
+from scipy.optimize import curve_fit
+from scipy.signal import medfilt
+from scipy.stats import norm
+import os
+import warnings
+from skimage import data
+from skimage.filters import threshold_otsu
+from skimage.segmentation import clear_border
+from skimage.measure import label, regionprops
+from skimage.morphology import closing, square
+from skimage.color import label2rgb
+import scipy
+from scipy import ndimage, misc, signal
+from functools import reduce
+import xml.etree.ElementTree as ET
+import pickle
+from matplotlib.colors import ListedColormap
+from sklearn import neighbors, datasets
+from sklearn.neighbors import KNeighborsClassifier
+from tempfile import TemporaryFile
+warnings.filterwarnings('ignore')
+import tarfile
+import os
+import numpy as np
+import skimage
+import scipy.ndimage as ndimage
+from skimage import measure
+import cv2 as cv
+import scipy.stats 
+from skimage.segmentation import active_contour
+from skimage.filters import gaussian
+from skimage import data
+from skimage.filters import threshold_otsu
+from skimage.segmentation import clear_border
+from skimage.measure import label, regionprops
+from skimage.morphology import closing, square
+from skimage.color import label2rgb
+from scipy import ndimage, misc, signal
+from matplotlib.colors import ListedColormap
+from sklearn import neighbors, datasets
+from sklearn.neighbors import KNeighborsClassifier
+from tempfile import TemporaryFile
+import keras
+from keras.models import Sequential
+from keras.layers import Dense, Conv2D, MaxPooling2D, Dropout, Flatten, BatchNormalization, Activation, Reshape
+from keras.optimizers import SGD, Adam
+import os
+import tensorflow as tf
+import keras.backend.tensorflow_backend as KTF
+from keras.models import Model
+from keras.layers import Input, Conv2D, Conv2DTranspose, Activation, MaxPooling2D, Dropout, BatchNormalization
+from keras.layers import add, concatenate
+from keras.losses import binary_crossentropy
+from keras.optimizers import Adam
+from keras.callbacks import ReduceLROnPlateau, ModelCheckpoint, EarlyStopping, TensorBoard
+import json
